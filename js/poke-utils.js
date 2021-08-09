@@ -8,6 +8,6 @@ function getPokemon(id) {
             addPokemon(data);
         })
         .catch(err => {
-            console.log("There's been an error: ", err);
+            console.log("Uh oh, error: ", err);
         })
 }
