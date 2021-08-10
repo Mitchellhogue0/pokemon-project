@@ -3,7 +3,7 @@
         getPokemon(Math.floor(Math.random() * 100) + 1)
         let poke = new Audio('../img/pokeball_sound_effects_mp3cut_1.mp3')
         poke.play();
-        poke.volume = 0.1;
+        poke.volume = 0.03;
     });
 
 

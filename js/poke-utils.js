@@ -1,4 +1,4 @@
-//* API GET request to retrieve pokemon based on random number
+//* API GET request to retrieve pokemon based on random number *
 function getPokemon(id) {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`, {
         method: "GET"
