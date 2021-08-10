@@ -1,12 +1,13 @@
-
+//* click function to get a random number between 1 and 100 and trigger the API *
     $("#catch-btn").click(function () {
-        console.log("click!")
         getPokemon(Math.floor(Math.random() * 100) + 1)
         let poke = new Audio('../img/pokeball_sound_effects_mp3cut_1.mp3')
         poke.play();
-        poke.volume = 0.3;
+        poke.volume = 0.1;
     });
 
+
+//* function to add the new pokemon to the DOM *
 function addPokemon (data) {
     $("#poke-container").append(`
     <div class="pokemane">
